@@ -17,6 +17,6 @@ func Tesconnect(c *gin.Context) {
 		return
 	}
 	defer db.Close()
-	c.JSON(http.StatusOK, gin.H{"result": "Success Connection"})
+	c.JSON(http.StatusOK, gin.H{"result": "Success Connection OK"})
 
 }
