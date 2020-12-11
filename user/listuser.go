@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	Conf "apigomycms/config"
-	ModelUser "apigomycms/struct"
+	Conf "github.com/asdamwongmantap/apigomycms/config"
+	ModelUser "github.com/asdamwongmantap/apigomycms/struct"
 )
 
 func ListAllUser(c *gin.Context) {

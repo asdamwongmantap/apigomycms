@@ -6,7 +6,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	Conf "apigomycms/config"
+	Conf "github.com/asdamwongmantap/apigomycms/config"
 )
 
 func Tesconnect(c *gin.Context) {

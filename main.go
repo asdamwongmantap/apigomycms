@@ -7,9 +7,9 @@ import (
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 
-	Conf "apigomycms/config"
-	Cconnect "apigomycms/connect"
-	Cuser "apigomycms/user"
+	Conf "github.com/asdamwongmantap/apigomycms/config"
+	Cconnect "github.com/asdamwongmantap/apigomycms/connect"
+	Cuser "github.com/asdamwongmantap/apigomycms/user"
 
 	"github.com/rs/cors"
 )
