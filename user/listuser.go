@@ -10,6 +10,15 @@ import (
 	ModelUser "github.com/asdamwongmantap/apigomycms/struct"
 )
 
+// ListAllUser godoc
+// @Summary List User
+// @Description get list all user
+// @Accept  json
+// @Produce  json
+// @Success 200 {array} ModelUser.ShowUser
+// @Failure 400,404 {string} string "error"
+// @Tags User
+// @Router /getalluser [get]
 func ListAllUser(c *gin.Context) {
 	var db, errdb = Conf.Connectdb()
 	if errdb != nil {
